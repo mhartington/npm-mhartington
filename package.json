@@ -1,10 +1,10 @@
 {
   "name": "mhartington",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "mhartington": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mhartington/npm-mhartington/issues"
   },
-  "homepage": "https://github.com/mhartington/npm-mhartington#readme"
+  "homepage": "https://github.com/mhartington/npm-mhartington#readme",
+  "dependencies": {
+    "colorette": "1.0.7"
+  }
 }
